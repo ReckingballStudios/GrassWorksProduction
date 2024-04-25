@@ -1,1 +1,8 @@
-V1.0.4
+V1.0.5
+
+- Added a version number and access to patch notes at the main navigation menu.
+- Added the account name to all the Edit Panels.
+- Reordered the Menu Bar. Settings now goes after Documents.
+- Back-Up data now backs up all data except for Attachments
+- Fixed a bug where updating data from the database would duplicate all local data.
+- Fixed a bug where the go back button wouldn't work properly in the scheduling menu.
