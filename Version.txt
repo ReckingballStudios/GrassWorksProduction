@@ -1,3 +1,11 @@
+V1.0.6
+
+- Restructured Job Types to have an integer ID as their primary Key
+- Restructured Jobs to identify Job-Types using their new ID primary key
+- Fixed Bugs introduced by the restructuring
+
+
+
 V1.0.5
 
 - Added a version number and access to patch notes at the main navigation menu.
@@ -6,3 +14,4 @@ V1.0.5
 - Back-Up data now backs up all data except for Attachments
 - Fixed a bug where updating data from the database would duplicate all local data.
 - Fixed a bug where the go back button wouldn't work properly in the scheduling menu.
+- Fixed a bug with auto-generated Email Bodies
