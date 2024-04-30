@@ -1,9 +1,22 @@
+V1.0.7
+
+	:: Additions ::
+- Added a patch to the Scheduling System to incorporate Group and Order
+- Added "Group" to Job-Types. You can now put Job-Types into their own groups
+- Added "Order" to Job-Types. Job-Types within a certain group will now have an order in which they are done. 
+	i.e. Spring application can have an Order value of 1 and Early Summer can have an Order Value of 2
+
+	:: Bug Fixes ::
+- Fixed a bug where the Job-Type drop-down wouldn't update after changing a Job-Type name
+- Fixed a bug where you could not search for a Job-Type in Jobs
+- Fixed a bug where the patch notes would not be downloaded locally, just the version number
+    * This fix will only work with the new AutoUpdater.jar
+
 V1.0.6
 
 - Restructured Job Types to have an integer ID as their primary Key
 - Restructured Jobs to identify Job-Types using their new ID primary key
 - Fixed Bugs introduced by the restructuring
-
 
 
 V1.0.5
