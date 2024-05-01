@@ -1,3 +1,15 @@
+V1.0.8
+	:: Additions ::
+- Added the ability to go to a Job-Site's google maps from the Edit Job-Site screen
+
+	:: Modifications ::
+- Changed the sensitivity of clicking on Job-Sites on the Interactive Map (Made it so you have to be more precise)
+- Now using a Google Maps API for GeoCoding (Deriving Lat and Long from an Address)
+
+	:: Bug Fixes ::
+- Fixed a bug where the Job Scheduling Algorithm would be different each time. Now it will start with the valid job that is furthest away.
+
+
 V1.0.7
 
 	:: Additions ::
