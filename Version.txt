@@ -1,3 +1,8 @@
+V1.0.9
+	:: Modifications ::
+- Changed the Scheduling Algorithm to schedule jobs based on a manually scheduled job. 
+	This way if you need to do a job, you can do other jobs in that same area.
+
 V1.0.8
 	:: Additions ::
 - Added the ability to go to a Job-Site's google maps from the Edit Job-Site screen
