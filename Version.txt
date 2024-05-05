@@ -1,3 +1,7 @@
+V1.0.11
+	:: Additions ::
+- Added a mass Invoice function for Today's Jobs: Documents -> Today's Invoices
+
 V1.0.10
 	:: Modifications ::
 - Discount Spinner goes up by 1 instead of 5 now
