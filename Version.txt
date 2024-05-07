@@ -1,3 +1,13 @@
+V1.0.12
+	:: Modifications ::
+- Changed the name of a Mass Invoice to "Today's Invoices"
+- Temporarily Removed the Estimated Date functionality for auto-scheduled jobs
+- Added Attachments and Job-Types to the main navigation panel. Might remove later, just seeing how it feels to have more options.
+
+	:: Bug Fixes ::
+- Fixed a bug where if you change the name of a Job-Type, it won't reflect on the combo box of jobs
+- Fixed a bug where Spring Letter Generator would not function
+
 V1.0.11
 	:: Additions ::
 - Added a mass Invoice function for Today's Jobs: Documents -> Today's Invoices
