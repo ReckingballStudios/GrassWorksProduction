@@ -1,8 +1,25 @@
+V1.0.13
+	:: Modifications ::
+- Took out the infinite thread in Database
+- Jobs in Today's Jobs Table don't show "called ahead" anymore
+- Jobs in Today's Jobs Table now show the linked Account's phone number
+- Attachments now save except for images
+
+	:: Bug Fixes ::
+- Fixed a bug where an invoice wouldn't generate if there was no one assigned
+- Fixed a bug where an invoice would have a balance on it even if it was paid for
+- Fixed a bug where you would run into an issue if you backed up the data while getting data from the database
+- Fixed a bug where the start time when completing a job was our Sentinel Date Value
+- Fixed a bug where the Zip Code wouldn't show up on Invoices
+- Fixed a bug where the Job-Site Address would show on the Invoice instead of the Account Billing Address
+
+
 V1.0.12
 	:: Modifications ::
 - Changed the name of a Mass Invoice to "Today's Invoices"
 - Temporarily Removed the Estimated Date functionality for auto-scheduled jobs
 - Added Attachments and Job-Types to the main navigation panel. Might remove later, just seeing how it feels to have more options.
+- Added the ability to quickly Email a Spring Letter
 
 	:: Bug Fixes ::
 - Fixed a bug where if you change the name of a Job-Type, it won't reflect on the combo box of jobs
