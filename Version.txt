@@ -1,3 +1,10 @@
+V1.0.14
+
+    :: Bug Fixes ::
+- Fixed a bug where two threads would try to access the same data in the Scheduling Algorithm
+- Fixed a bug where auto-scheduled jobs would dissappear from Today's Jobs after completion. 
+	They will now dissappear from Today's Jobs after the day is done
+
 V1.0.13
 	:: Modifications ::
 - Took out the infinite thread in Database
