@@ -1,9 +1,18 @@
+V1.0.15
+    :: Modifications ::
+- Added a feature where our Waypoint will change color click on it to select it
+- (Haven't quite finished the functionality of clicking on a Job in the table to change waypoint color)
+
+    :: Bug Fixes ::
+- Fixed a bug where the Respite Check wouldn't work for manually scheduled jobs that are in the same group as the last Job
+
+
 V1.0.14
 
     :: Bug Fixes ::
 - Fixed a bug where two threads would try to access the same data in the Scheduling Algorithm
-- Fixed a bug where auto-scheduled jobs would dissappear from Today's Jobs after completion. 
-	They will now dissappear from Today's Jobs after the day is done
+- Fixed a bug where auto-scheduled jobs would disappear from Today's Jobs after completion.
+	They will now disappear from Today's Jobs after the day is done
 
 V1.0.13
 	:: Modifications ::
