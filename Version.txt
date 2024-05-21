@@ -1,3 +1,20 @@
+V1.0.17
+    :: Additions ::
+- Added Menu Item, "Reset Database Connection" which allows you to reset your database connection from within the program
+- Added Time Zone to Settings, this will determine when Jobs are Today's Jobs is reset. Should be at Midnight in your time zone.
+- Added Right-Click to Tables
+- Added Edit option on Right-Click Menu
+- Added Delete option on Right-Click, but left out the functionality
+
+    :: Modifications ::
+- When you click on a Job's Waypoint, it will select the Job in the Table
+- Moved "Change Password" from "Settings" to "Manage"
+- Single-clicking on an Object in a table no longer brings you to the Edit Screen
+- Double-clicking now takes on the function of the prior Single-Click
+
+    :: Bug Fixes ::
+- Fixed a bug where Deleting a User would not remove the User data locally
+
 V1.0.16
     :: Modifications ::
 - When you click on a Job in Today's Jobs Table it will turn the Waypoint Orange for the selected Job
@@ -14,7 +31,7 @@ V1.0.15
 
     :: Bug Fixes ::
 - Fixed a bug where the Respite Check wouldn't work for manually scheduled jobs that are in the same group as the last Job
-
+- Fixed a major bug where Jobs of higher order were showing up on the schedule during respite
 
 V1.0.14
 
