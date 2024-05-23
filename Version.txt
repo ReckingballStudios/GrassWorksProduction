@@ -1,3 +1,13 @@
+V1.0.19
+    :: Bug Fixes ::
+- Fixed a bug where the In Respite Check would not function properly for "Add to Today's Jobs" function
+- Fixed a Major bug that would crash GrassWorks if you had a Job in Today's Jobs that wasn't assigned to anyone
+- Fixed a Major bug that would crash GrassWorks if you clicked on a Job that didn't have a Waypoint
+
+    :: Modifications ::
+- Changed the wording: "Add to Schedule" -> "Add to Today's Jobs" / "Remove from Schedule" -> "Remove from Today's Jobs"
+
+
 V1.0.18
     :: Additions ::
 - Enabled Mass Deletion Functionality. A confirmation Prompt is given before proceeding with deletion.
