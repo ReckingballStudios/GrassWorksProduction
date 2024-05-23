@@ -1,3 +1,23 @@
+V1.0.18
+    :: Additions ::
+- Enabled Mass Deletion Functionality. A confirmation Prompt is given before proceeding with deletion.
+- Added a "Use as Template" feature. Click on an Object in a Table to use as a Template for a new Object.
+    (This feature is Currently only available for Jobs, but coming soon for all GrassWorks Objects)
+
+    :: Modifications ::
+- Made it so a single click on a Job in Today's Jobs Table would still select a Job
+- Made the default order of the tables reversed
+- Adding a Job now brings you back to the Add New Job Panel with applicable Aspects autofilled
+- Removed "Addition Success" and "Deletion Success" Pop-Ups
+- Searchbars in Selectors now immediately ask for focus, so you don't have to click on the Searchbar
+- "Confirm Scheduling" Button is no longer Green. (I didn't like how it made you think that it's saved after pressing)
+
+    :: Bug Fixes ::
+- Fixed a bug where the Table Renderer wouldn't work if Jobs from the Database were loaded while you were looking at the Table
+- Fixed a bug where the Respite Check would trigger if the Job was Auto-Scheduled
+- Fixed a bug where the Respite Check PopUp would not determine if the Job was Added/Edited
+- Fixed a bug where "Edit Selected" right-click option wouldn't work in the Scheduling Table
+
 V1.0.17
     :: Additions ::
 - Added Menu Item, "Reset Database Connection" which allows you to reset your database connection from within the program
