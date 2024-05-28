@@ -1,3 +1,27 @@
+V1.0.20
+    :: Additions ::
+- Added an autofill when you select an Account for your Job-Site. Autofills Address, City, State, Country, and ZipCode
+- Added a "Restart GrassWorks" Menu Item under "File" Clicking this will restart GrassWorks
+- Added a Variable in Job-Type called RequiresSequentialCompletion which will determine if every Job in the preceding Job-Type will need to be completed
+    in order to schedule this Job-Type. (Waiting for Database to go Live)
+- Implemented RequiresSequentialCompletion into our Scheduling Algorithm
+
+    :: Modifications ::
+- Removed the Blank option for Countries Combo Box
+- Made it so AutoUpdater actually launches GrassWorks itself.
+    We will still probably use the older version for the time being for easy debugging,
+    but we'll be transitioning to a Logging System.
+- Slightly lowered the Distance threshold for clicking on Waypoints
+- I removed the "Search For" ComboBox... I just never used it. Can reimplement if there is demand for the feature
+
+    :: Bug Fixes ::
+- Fixed a Bug where GrassWorks would freeze if we have bad internet, and you run getTodaysJobs.
+    Now you can only open Today's Jobs if the Database has finished loading
+- Fixed a Bug in Offline mode, where there was a parsing error for Dates
+- Fixed a Null Ptr Exception in our Respite Check in Offline mode
+- Fixed a Bug where a Waypoint would not highlight Orange if clicked on, on the map
+
+
 V1.0.19
     :: Bug Fixes ::
 - Fixed a bug where the In Respite Check would not function properly for "Add to Today's Jobs" function
