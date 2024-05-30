@@ -1,3 +1,23 @@
+V1.0.21
+    :: Additions ::
+- Added a CheckBox in Today's Jobs that will Toggle the Visibility of Completed Jobs on the Map
+- Added a Tip of the Day! This will help people gradually learn the program more.
+- Added some more Tool Tips to the program
+- Modified the Tool Tips to last longer, and show up more easily
+
+    :: Modifications ::
+- Reverted the waypoint selection sensitivity to 20, but it now requires a double click
+- Right-Click no longer adds an object to the selection in the tables unless nothing is selected.
+
+    :: Bug Fixes ::
+- Fixed a Bug where deleting a Job in Today's Jobs would take you to the Add Job Window instead of taking you back to Today's Jobs
+- Fixed a Bug where clicking "Edit Selected" in the right-click menu in Scheduling would bring you to the Add Job Window instead of back to the Scheduling window
+- Fixed a Bug where Completed Jobs were showing up in the Scheduling Window
+- Fixed a text mistake, where our "Select Job" Button in Add Attachment said "Select Job-Site"
+
+    :: Optimizations ::
+- Made a slight optimization to clicking on Jobs in the Map
+
 V1.0.20
     :: Additions ::
 - Added an autofill when you select an Account for your Job-Site. Autofills Address, City, State, Country, and ZipCode
