@@ -1,3 +1,7 @@
+V1.0.22
+    :: Bug Fixes ::
+- HOTFIX for when there's a Job that has a Null Account attached to it.
+
 V1.0.21
     :: Additions ::
 - Added a CheckBox in Today's Jobs that will Toggle the Visibility of Completed Jobs on the Map
