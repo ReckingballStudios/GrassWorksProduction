@@ -1,3 +1,6 @@
+V1.0.23b
+- hotfix to adjust screen size
+
 V1.0.23
     :: Additions ::
 - Added a Bug Report button. Now users may email me whenever they encounter a bug.
