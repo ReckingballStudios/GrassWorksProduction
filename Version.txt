@@ -1,6 +1,18 @@
+V1.0.23
+    :: Additions ::
+- Added a Bug Report button. Now users may email me whenever they encounter a bug.
+- Added Notes of the Job to the Invoice (it's limited to so many characters though)
+- Added a shortcut for navigating to add Attachment, Job, Job-Site, Account, & Job-Type (Ctrl + 0,1,2,3,4 respectively)
+
+    :: Optimizations ::
+- Optimized the start-up of the program, so you are not waiting on the connection to the Database to enter your username and password
+
+    :: Bug Fixes ::
+- Made the default screen size 1.0f instead of 0.85f, which corrects for some GUI issues
+
 V1.0.22
     :: Bug Fixes ::
-- HOTFIX for when there's a Job that has a Null Account attached to it.
+- HOTFIX for when the User adds a Job that has a Null Account attached to it.
 
 V1.0.21
     :: Additions ::
