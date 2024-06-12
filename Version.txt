@@ -1,3 +1,15 @@
+V1.0.25
+    :: Additions ::
+- Added Notes to Accounts
+- Added a Right-Click option (Auto-Schedule) for Jobs
+- Manually Scheduled Jobs that are scheduled for today now highlight Orange in Tables
+- Unassigned Jobs will now show up on the map with a waypoint. They just won't have a route painter attached to them
+
+    :: Modifications ::
+- Text Areas are now limited to 1024 characters to match the database. This coincides with the size limits configured in the database.
+- Enabled Word Wrap in Text Areas. This should improve readability.
+- Increased Distance Threshold for selecting Waypoints
+
 V1.0.24
     :: Structure ::
 - Created the folder data/backups
