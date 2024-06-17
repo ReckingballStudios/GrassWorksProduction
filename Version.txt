@@ -1,3 +1,7 @@
+V1.0.26
+    :: Fixes ::
+- Added a validation to Add, Edit, and Delete functions, so the program can reconnect to the database if it lost connection
+
 V1.0.25
     :: Additions ::
 - Added Notes to Accounts
@@ -16,7 +20,7 @@ V1.0.24
 
     :: Database ::
 - The database has been reconfigured in a new location. Henderson, Nevada -> Madison, Wisconsin
-- Some important aspects are now encrypted
+- Some important aspects are encrypted
 
 V1.0.23b
 - hotfix to adjust screen size
