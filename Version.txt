@@ -1,3 +1,29 @@
+V1.0.28
+    :: Additions ::
+- Added a Database Connection Validation for when you manually update data from the database.
+- Added Pays For Jobs CheckBox in Attachments. If Checked, we will automatically set the jobs as paid for, and prepaid if they are incomplete.
+- Finished Implementing the Blacklist for Auto-Scheduled Jobs that you don't want on Today's Jobs.
+
+    :: Modifications ::
+- Changed 'Cost' Column in Jobs table to 'Is Paid For'
+- Changed 'Job' Column in Attachments table to 'Account'
+- Modified the Width of some columns as to leave more room for columns with more information
+- Slightly dulled the Table Colors for Today's Manually Scheduled Jobs (hot jobs)
+- Modified Attachments to be able to hold multiple Jobs
+- Modified the GUI for Prepay. It is now on the main table, and has immediate autofill for discount and paid for
+- Moved Scheduling to the bottom of the main navigation menu
+
+    :: Bug Fixes ::
+- Fixed a bug where the "Requires Sequential Completion" text would show up twice in the GUI
+- Fixed a bug where Requires Sequential Completion wasn't fully implemented
+- Fixed a bug where the GUI would fail from the Job Type description being too large.
+- Fixed a bug where the Open Job in Google Maps Button would not appear
+
+V1.0.27
+    :: Database ::
+- Integrated daily backups of the database. Backups happen daily at midnight.
+     Only the most recent 5 days will remain saved on the pi.
+
 V1.0.26
     :: Fixes ::
 - Added a validation to Add, Edit, and Delete functions, so the program can reconnect to the database if it lost connection
@@ -191,7 +217,7 @@ V1.0.11
 V1.0.10
 	:: Modifications ::
 - Discount Spinner goes up by 1 instead of 5 now
-	
+
 
 	:: Bug Fixes ::
 - Re-Fixed a bug where the QR Codes would only accept .png
@@ -199,7 +225,7 @@ V1.0.10
 V1.0.9
 
 	:: Modifications ::
-- Changed the Scheduling Algorithm to schedule jobs based on a manually scheduled job. 
+- Changed the Scheduling Algorithm to schedule jobs based on a manually scheduled job.
 	This way if you need to do a job, you can do other jobs in that same area.
 
 V1.0.8
@@ -220,7 +246,7 @@ V1.0.7
 	:: Additions ::
 - Added a patch to the Scheduling System to incorporate Group and Order
 - Added "Group" to Job-Types. You can now put Job-Types into their own groups
-- Added "Order" to Job-Types. Job-Types within a certain group will now have an order in which they are done. 
+- Added "Order" to Job-Types. Job-Types within a certain group will now have an order in which they are done.
 	i.e. Spring application can have an Order value of 1 and Early Summer can have an Order Value of 2
 
 	:: Bug Fixes ::
