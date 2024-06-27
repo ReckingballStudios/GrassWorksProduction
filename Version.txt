@@ -1,3 +1,20 @@
+V1.0.29
+    :: Additions ::
+- Changed the color of Jobs correlated with Manually scheduled Jobs to Orange
+
+    :: Modifications ::
+- Upgraded the Text Areas for notes on Jobs, Accounts, and Attachments to the new Text Area that scrolls.
+- (Requires Sequential Completion) If all the jobs in an order are blacklisted, the scheduler will move on to the next order.
+- (Does not Require Sequential Completion) If a job at the same job-site is lower ordered but blacklisted,
+    the scheduler will move on to the next order.
+- Changed the color of a selected Job Waypoint from Orange to White
+- The Table in Today's Jobs now only displays Jobs that are on the Map
+
+    :: Bug Fixes ::
+- Fixed a bug where the search feature for Attachments wouldn't function properly.
+- Fixed a Comparator bug when sorting by Job Site.
+- Fixed a bug where Jobs in Today's Jobs Table would be in a different order than on the map
+
 V1.0.28
     :: Additions ::
 - Added a Database Connection Validation for when you manually update data from the database.
@@ -217,7 +234,7 @@ V1.0.11
 V1.0.10
 	:: Modifications ::
 - Discount Spinner goes up by 1 instead of 5 now
-
+	
 
 	:: Bug Fixes ::
 - Re-Fixed a bug where the QR Codes would only accept .png
@@ -225,7 +242,7 @@ V1.0.10
 V1.0.9
 
 	:: Modifications ::
-- Changed the Scheduling Algorithm to schedule jobs based on a manually scheduled job.
+- Changed the Scheduling Algorithm to schedule jobs based on a manually scheduled job. 
 	This way if you need to do a job, you can do other jobs in that same area.
 
 V1.0.8
@@ -246,7 +263,7 @@ V1.0.7
 	:: Additions ::
 - Added a patch to the Scheduling System to incorporate Group and Order
 - Added "Group" to Job-Types. You can now put Job-Types into their own groups
-- Added "Order" to Job-Types. Job-Types within a certain group will now have an order in which they are done.
+- Added "Order" to Job-Types. Job-Types within a certain group will now have an order in which they are done. 
 	i.e. Spring application can have an Order value of 1 and Early Summer can have an Order Value of 2
 
 	:: Bug Fixes ::
