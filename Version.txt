@@ -1,6 +1,13 @@
+V1.0.30
+    :: Additions ::
+- Implemented a selectable Calendar for whenever the user wants to select a date
+
+    :: Bug Fixes ::
+- Fixed a bug where new jobs wouldn't have End Time start 15 minutes into the future
+
 V1.0.29
     :: Additions ::
-- Changed the color of Jobs correlated with Manually scheduled Jobs to Orange
+- Changed the color of Waypoints correlated with Manually scheduled Jobs to Orange
 
     :: Modifications ::
 - Upgraded the Text Areas for notes on Jobs, Accounts, and Attachments to the new Text Area that scrolls.
