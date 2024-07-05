@@ -1,3 +1,16 @@
+V1.0.31
+    :: Additions ::
+- Added the Calendar Date Selection to Manually Scheduling Jobs to a Date
+- Added some extra Tool-Tips in Settings
+- Added a red highlight to Jobs that are overdue and not paid for
+
+    :: Modifications ::
+- Changed the order of Blacklist and Auto-Schedule
+
+    :: Bug Fixes ::
+- Fixed some calculation mistakes when it comes to calculating the price of a Job, when Attachments are paying for them
+- Fixed a bug where Jobs in the Table would not show the correct completion date.
+
 V1.0.30
     :: Additions ::
 - Implemented a selectable Calendar for whenever the user wants to select a date
