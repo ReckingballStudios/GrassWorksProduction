@@ -1,3 +1,15 @@
+V1.0.32
+    :: Automation ::
+- The Account Name will auto-fill from Last Name First Name if the Account Name is blank
+- Typing in a Zip Code auto-fills city, state, etc.
+
+    :: Modifications ::
+- Slightly changed the red selection color
+- Added a Refresh Button to the Latitude and Longitude
+
+    :: Bug Fixes ::
+- Fixed a bug where some components wouldn't turn the border red when editing an object after altering a data point
+
 V1.0.31
     :: Additions ::
 - Added the Calendar Date Selection to Manually Scheduling Jobs to a Date
