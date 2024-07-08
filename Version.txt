@@ -1,3 +1,7 @@
+V1.0.33
+    :: Hot Fix ::
+- Fixed the Scheduling Algorithm
+
 V1.0.32
     :: Automation ::
 - The Account Name will auto-fill from Last Name First Name if the Account Name is blank
