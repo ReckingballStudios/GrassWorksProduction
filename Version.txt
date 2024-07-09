@@ -1,3 +1,12 @@
+V1.0.35
+    :: Additions ::
+- Added a total cost display in Attachments.
+
+    :: Bug Fixes ::
+- The Job selector now closes when you hit Confirm Changes or Add Attachment
+- Fixed a bug with floating point imprecision when comparing the cost of checks and jobs
+- Fixed a bug where you couldn't search for accounts in Attachments
+
 V1.0.34
     :: Hot Fix ::
 - Fixed a bug with entering Checks
