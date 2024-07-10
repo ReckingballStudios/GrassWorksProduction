@@ -1,3 +1,12 @@
+V1.0.36
+    :: Optimization ::
+- Made major optimizations our database reading algorithm: Avg read time from 33 seconds -> 8 seconds
+
+    :: Bug Fixes ::
+- Fixed a bug where the Job selected on the table in Today's Jobs wouldn't be the Job you would go to edit when you click 'Edit Job'
+- Fixed a bug where the Context Menu would display an 'auto-schedule' option for Jobs that were already auto-scheduled
+- Fixed a bug where the Context Menu would display the 'Add to Today's Jobs' option when the job was already manually scheduled for that day
+
 V1.0.35
     :: Additions ::
 - Added a total cost display in Attachments.
