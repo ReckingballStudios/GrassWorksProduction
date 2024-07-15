@@ -1,3 +1,12 @@
+V1.0.37
+    :: Additions ::
+- Ctrl + F automatically focuses the Search field
+- Ctrl + S is now a shortcut to Confirm Changes when editing an object
+
+    :: New Logging System ::
+- GrassWorks now contains a log of any additions, edits, and deletions made to the database.
+- GrassWorks now contains a Restoration Log, containing SQL Code to restore any objects that have been deleted.
+
 V1.0.36
     :: Optimization ::
 - Made major optimizations our database reading algorithm: Avg read time from 33 seconds -> 8 seconds
