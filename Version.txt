@@ -1,4 +1,4 @@
-V1.0.37
+V1.0.37b
     :: Additions ::
 - Ctrl + F automatically focuses the Search field
 - Ctrl + S is now a shortcut to Confirm Changes when editing an object
