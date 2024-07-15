@@ -1,4 +1,8 @@
-V1.0.37b
+V1.0.38
+    ::: HOT FIX :::
+- Fixed the dates being wrong on Invoices
+
+V1.0.37
     :: Additions ::
 - Ctrl + F automatically focuses the Search field
 - Ctrl + S is now a shortcut to Confirm Changes when editing an object
