@@ -1,4 +1,8 @@
-V1.0.38b
+V1.0.39
+    :: Additions ::
+- Added a Add Database Log Button to Bug Report
+
+V1.0.38
     ::: HOT FIX :::
 - Fixed the dates being wrong on Invoices
 
