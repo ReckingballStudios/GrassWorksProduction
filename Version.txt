@@ -1,3 +1,10 @@
+V1.0.40
+    :: Modifications ::
+- Slightly increased the size of West Panels to prevent GUI Issues on smaller screens.
+
+    :: Bug Fixes :: 
+- Made a possible bug fix to the problem of confirming changes and everything turning green, but database not uploading
+
 V1.0.39
     :: Additions ::
 - Added a Add Database Log Button to Bug Report
