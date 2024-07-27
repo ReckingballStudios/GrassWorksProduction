@@ -1,3 +1,15 @@
+V1.0.41
+    :: Modifications ::
+- Made it so if there is any value of " ", the component will have "" instead. So there's no space at the beginning of the entry.
+
+    :: Bug Fixes ::
+- Fixed a bug where the Sentinel Date would show on an invoice if the Job was incomplete.
+- Fixed a bug where some drop down menus would not be set to the current data for the menu, and instead be left as the default value
+- Fixed a bug where the Table Renderer for Overdue Unpaid Jobs would not display the correct colors.
+- Fixed a bug where the Search feature would not work Overdue Unpaid Jobs
+- Fixed a bug where the Context Menu Features weren't working for some tables
+- Fixed a bug where Deleting Objects using the Context Menu and selecting "No" would still delete the objects in the table
+
 V1.0.40
     :: Modifications ::
 - Slightly increased the size of West Panels to prevent GUI Issues on smaller screens.
