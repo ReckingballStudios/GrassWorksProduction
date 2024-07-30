@@ -1,3 +1,8 @@
+V1.0.42
+    :: Additions ::
+- Added a "Generate Invoice(s)" option to our context menu when dealing with Jobs.
+- Added the "Amount" aspect to the Attachments table
+
 V1.0.41
     :: Modifications ::
 - Made it so if there is any value of " ", the component will have "" instead. So there's no space at the beginning of the entry.
