@@ -1,3 +1,13 @@
+V1.0.43
+    :: Modifications ::
+- Heavily Restructured our History Stack, to allow the preservation of Table data, when returning to parts of the program. Please Watch for Bugs.
+- Changed the Text on Generate Invoice Context Menu Item to "Generate Invoice(s)"
+- Modified our Table's color renderer. Payment for a Job is now depicted with color only in the Is Paid For cell.
+    - Red = Overdue
+    - Orange = Not paid for
+    - Green = Paid for
+- Changed the highlight color of "Hot Jobs" to Purple
+
 V1.0.42
     :: Additions ::
 - Added a "Generate Invoice(s)" option to our context menu when dealing with Jobs.
