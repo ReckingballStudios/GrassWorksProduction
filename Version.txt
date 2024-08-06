@@ -1,3 +1,8 @@
+V1.0.44
+    :: Bug Fixes ::
+- Fixed a bug where you could not search for Objects in a split table, introduced in the last data persistence patch.
+- Fixed a bug where the Data Persistence would not function properly with some split tables.
+
 V1.0.43
     :: Modifications ::
 - Heavily Restructured our History Stack, to allow the preservation of Table data, when returning to parts of the program. Please Watch for Bugs.
