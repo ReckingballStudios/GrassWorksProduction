@@ -1,3 +1,10 @@
+V1.0.45
+    :: Additions ::
+- Added some more convenient ways to search for things!
+    - You now don't need to match the exact format of phone numbers
+    - You can now search for a First Name / Last Name Combination in Accounts
+    - You can now search for Property Name in Jobs
+
 V1.0.44
     :: Bug Fixes ::
 - Fixed a bug where you could not search for Objects in a split table, introduced in the last data persistence patch.
