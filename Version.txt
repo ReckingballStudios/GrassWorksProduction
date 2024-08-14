@@ -1,4 +1,4 @@
-V1.0.46
+V1.0.46b
     :: Additions ::
 - Statements are now creatable. You may email them to customers, when editing their accounts, '
         or you can select any amount of Accounts in an account table and hit generate statements
