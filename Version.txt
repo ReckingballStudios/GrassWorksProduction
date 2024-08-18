@@ -1,13 +1,11 @@
 V1.0.47
     :: Additions ::
-- Statements are now creatable. You may email them to customers, when editing their accounts, '
-        or you can select any amount of Accounts in an account table and hit generate statements
 - Recreated the way we generate Documents. We now have a Document Generator Window that appears whenever we Generate Documents.
 
     :: Bug Fixes ::
 - Fixed a bug, where auto-scheduled Jobs would display their Scheduled Date as a Date other than Today
 
-V1.0.46b
+V1.0.46
     :: Additions ::
 - Statements are now creatable. You may email them to customers, when editing their accounts, '
         or you can select any amount of Accounts in an account table and hit generate statements
@@ -17,7 +15,6 @@ V1.0.45
 - Added some more convenient ways to search for things!
     - You now don't need to match the exact format of phone numbers
     - You can now search for a First Name / Last Name Combination in Accounts
-    - You can now search for Property Name in Jobs
 
 V1.0.44
     :: Bug Fixes ::
@@ -55,7 +52,7 @@ V1.0.40
     :: Modifications ::
 - Slightly increased the size of West Panels to prevent GUI Issues on smaller screens.
 
-    :: Bug Fixes :: 
+    :: Bug Fixes ::
 - Made a possible bug fix to the problem of confirming changes and everything turning green, but database not uploading
 
 V1.0.39
