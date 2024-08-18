@@ -1,3 +1,12 @@
+V1.0.47
+    :: Additions ::
+- Statements are now creatable. You may email them to customers, when editing their accounts, '
+        or you can select any amount of Accounts in an account table and hit generate statements
+- Recreated the way we generate Documents. We now have a Document Generator Window that appears whenever we Generate Documents.
+
+    :: Bug Fixes ::
+- Fixed a bug, where auto-scheduled Jobs would display their Scheduled Date as a Date other than Today
+
 V1.0.46b
     :: Additions ::
 - Statements are now creatable. You may email them to customers, when editing their accounts, '
