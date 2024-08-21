@@ -1,3 +1,10 @@
+V1.0.49
+    :: Modifications ::
+- Moved the 'Email Customer' Button to the bottom toolbar. Was in the bottom right corner of the Edit Object Panel.
+- Added an 'Add Payment to Account' Button where the 'Email Customer' Button used to be.
+- Changed one of the columns of our associated Jobs from ID -> Cost
+- Added a QR Code to Statements
+
 V1.0.48
     :: Additions ::
 - Added the GrassWorks Icon to the Object Selector. (I forgot to do this prior)
