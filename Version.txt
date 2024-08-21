@@ -1,3 +1,17 @@
+V1.0.48
+    :: Additions ::
+- Added the GrassWorks Icon to the Object Selector. (I forgot to do this prior)
+- Added a right-click in the context menu for Jobs, Job-Sites, and Accounts that allows you to add a Payment to any of the Jobs correlated.
+    - Further modified this to accept the selection of multiple Jobs, Job-Sites, and Accounts
+
+    :: Modifications ::
+- Temporarily changed the name of Attachments -> Payments/Attachments
+- Changed the wording of adding new objects. E.g. Add Job -> Add New Job
+- Slightly changed the size of the Associated Objects Component to be larger, so it can hold more Associated Objects. 3 -> 5 objects now visible
+
+    :: Bug Fixes ::
+- Fixed a bug, where the Job Selector for adding Jobs to Attachments would start off-screen.
+
 V1.0.47
     :: Additions ::
 - Recreated the way we generate Documents. We now have a Document Generator Window that appears whenever we Generate Documents.
