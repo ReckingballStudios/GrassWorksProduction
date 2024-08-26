@@ -1,7 +1,16 @@
+V1.0.51
+    :: Modifications ::
+- Slightly moved the account information on Invoices, so that it fits in letters better when tri-folded.
+- Reintroduced the 'Cost' Column to the Associated Jobs table in Attachments.
+
+    :: Bug Fixes ::
+- Fixed a bug where Swing Components that were dependent on other GrassWorks Objects would not update, after the referenced GrassWorks Object was edited
+
 V1.0.50
     :: Additions ::
 - Added a phone number directly next to the Called Ahead check box in Jobs.
 - Added a pop-up when the User wants to complete a Job. If they need to call ahead, it will pop up and say that they need to call ahead before completing the Job
+- Added a pop-up when a payment is greater than the cost of the Services selected.
 
     :: Bug Fixes ::
 - Fixed a bug where the Email Window's GUI was messed up
