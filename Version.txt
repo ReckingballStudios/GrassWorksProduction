@@ -1,4 +1,4 @@
-V1.0.52
+V1.0.52b
     :: Additions ::
 - Added our Yearly Report!
     - Communicates progress this year, monetary gains, Square footage, Chemical, and Fertilizer remaining, 
