@@ -1,3 +1,9 @@
+V1.0.52
+    :: Additions ::
+- Added our Yearly Report!
+    - Communicates progress this year, monetary gains, Square footage, Chemical, and Fertilizer remaining, 
+- Added Chemical and Fertilizer information to Job-Types. Chemical and Fertilizer necessary for the year is derived from these numbers.
+
 V1.0.51
     :: Modifications ::
 - Slightly moved the account information on Invoices, so that it fits in letters better when tri-folded.
