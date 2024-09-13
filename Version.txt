@@ -1,3 +1,6 @@
+V1.0.54
+    HOT FIX for a bug with the latest update
+
 V1.0.53
     :: Modifications ::
 - Slightly changed the flow and layout of adding payments.
