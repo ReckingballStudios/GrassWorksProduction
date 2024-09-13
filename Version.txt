@@ -1,4 +1,14 @@
-V1.0.52b
+V1.0.53
+    :: Modifications ::
+- Slightly changed the flow and layout of adding payments.
+- There's now a button to select an associated account
+- Modified the Amount field in Attachments to include a button that auto-enters the cost of the Jobs
+- Added a few Quality of Life shortcuts to the program
+
+    :: Bug Fixes ::
+- Fixed a bug where when adding payments the total cost of the Jobs would be calculated wrong for the pop-up warning
+
+V1.0.52
     :: Additions ::
 - Added our Yearly Report!
     - Communicates progress this year, monetary gains, Square footage, Chemical, and Fertilizer remaining, 
