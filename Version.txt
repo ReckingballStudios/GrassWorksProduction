@@ -1,3 +1,7 @@
+V1.0.55
+    :: Additions ::
+- Added a mark Jobs as Prepay Right-Click in the Associated Jobs table
+
 V1.0.54
     HOT FIX for a bug with the latest update
 
