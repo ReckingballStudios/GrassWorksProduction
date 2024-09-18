@@ -1,3 +1,16 @@
+V1.0.56
+    :: Bug Fixes ::
+- Fixed a bug where removing a job from the Associated Jobs Table would not update the total cost.
+- Fixed a bug where the Account Balance Label was off-kilter
+
+    :: Modifications ::
+- Made it so the Prepay Combo Box no longer auto-checks / unchecks the Paid For Check Box
+- The Total Cost Label over the Associated Jobs Table now has how much has been paid for as well
+
+    :: Additions ::
+- Account Balance is now in a decent working state. The balance will increase whenever the User Overpays for any Jobs.
+        The functionality of deducting the Account Balance from the next Job is not yet implemented.
+
 V1.0.55
     :: Additions ::
 - Added a mark Jobs as Prepay Right-Click in the Associated Jobs table
