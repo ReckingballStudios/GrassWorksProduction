@@ -1,3 +1,7 @@
+V1.0.57
+    :: Additions ::
+- Added the ability to Generate Statements from the Overdue Unpaid Jobs screen
+
 V1.0.56
     :: Bug Fixes ::
 - Fixed a bug where removing a job from the Associated Jobs Table would not update the total cost.
