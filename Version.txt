@@ -1,3 +1,8 @@
+V1.0.58
+    :: Additions/Modifications ::
+- Updated the Context Menu
+- You can now generate any documents from any GrassWorks Object
+
 V1.0.57
     :: Additions ::
 - Added the ability to Generate Statements from the Overdue Unpaid Jobs screen
