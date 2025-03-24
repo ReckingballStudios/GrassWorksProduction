@@ -1,3 +1,15 @@
+V1.0.59
+    :: Additions/Modifications ::
+- Blacklisted jobs are now highlighted Grey
+- Blacklisted jobs now display as Blacklisted in the Schedule column
+- Added the Year ComboBox on all the Job Tables' searchbars. Jobs can now be filtered by the year selected.
+- Added the ability to Copy any number of selected Jobs
+
+    :: Bug Fixes ::
+- Fixed a bug, where a major exception triggered when opening up todays jobs when there were no valid jobs.
+- Fixed a bug where Blacklisted jobs would appear on Today's Jobs
+- Fixed some wording on the confirmation pop-up for deleting jobs
+
 V1.0.58
     :: Additions/Modifications ::
 - Updated the Context Menu
