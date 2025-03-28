@@ -1,3 +1,9 @@
+V1.0.60
+    :: Bug Fixes ::
+- Fixed a bug where copying over a Job also copied over its paid for / discount status.
+- Fixed a bug where Blacklisted Jobs would not copy
+- Fixed a bug where Blacklisted Jobs were included in the Spring Letter
+
 V1.0.59
     :: Additions/Modifications ::
 - Blacklisted jobs are now highlighted Grey
