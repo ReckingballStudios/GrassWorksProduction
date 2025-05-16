@@ -1,3 +1,16 @@
+V1.0.65
+    :: Bug Fixes ::
+- Fixed a bug with the Spring letter where, the Standard Price Rows, and the Pre-Pay Rows were not aligned
+- Fixed a bug where the automatic calculation of price wouldn't trigger after selecting a JobSite for a Job
+
+V1.0.64
+    :: Additions ::
+- GrassWorks now Supports Spanish and German. Translations were added to most everything.
+
+V1.0.63
+    :: Modifications ::
+- Rename: Invoice Settings -> Email Settings
+
 V1.0.62
     :: Bug Fixes ::
 - Fixed a bug where the Accounts and JobSites table were empty if you had a year filter selected
@@ -13,6 +26,7 @@ V1.0.60
 - Fixed a bug where copying over a Job also copied over its paid for / discount status.
 - Fixed a bug where Blacklisted Jobs would not copy
 - Fixed a bug where Blacklisted Jobs were included in the Spring Letter
+- Made sure that Jobs in the Spring letter were listed in Chronological Order
 
 V1.0.59
     :: Additions/Modifications ::
@@ -68,7 +82,7 @@ V1.0.53
 V1.0.52
     :: Additions ::
 - Added our Yearly Report!
-    - Communicates progress this year, monetary gains, Square footage, Chemical, and Fertilizer remaining, 
+    - Communicates progress this year, monetary gains, Square footage, Chemical, and Fertilizer remaining,
 - Added Chemical and Fertilizer information to Job-Types. Chemical and Fertilizer necessary for the year is derived from these numbers.
 
 V1.0.51
