@@ -1,3 +1,12 @@
+V1.0.66
+    :: Bug Fixes ::
+- Fixed a bug where filtering the year while in the profile of an account would not filter out the jobs
+- Fixed a bug where blacklisted jobs appeared on the attachments jobs component
+- Fixed a bug where additions of Job Types would fail due to a Number Formatting exception associated with Fertilizer and Chemical Rates
+
+    :: Bug Identified ::
+- We are having trouble with Open Street Maps API
+
 V1.0.65
     :: Bug Fixes ::
 - Fixed a bug with the Spring letter where, the Standard Price Rows, and the Pre-Pay Rows were not aligned
