@@ -1,3 +1,8 @@
+V1.0.67
+    :: Features ::
+- Added a recalculate cost feature that will recalculate the base cost for any job you have selected
+- Added an edit affirmation that will ask the user if they are sure they would like to abandon any unsaved changes
+
 V1.0.66
     :: Bug Fixes ::
 - Fixed a bug where filtering the year while in the profile of an account would not filter out the jobs
