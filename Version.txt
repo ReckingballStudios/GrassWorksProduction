@@ -1,3 +1,11 @@
+V1.0.69
+    :: Tool Addition ::
+- Added a tool to easily change the database location
+
+V1.0.68
+    :: Bug Fixes ::
+- Fixed a major bug that prevented the Open Street Maps API from functioning with the program.
+
 V1.0.67
     :: Features ::
 - Added a recalculate cost feature that will recalculate the base cost for any job you have selected
